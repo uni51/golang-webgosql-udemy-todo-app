@@ -1,8 +1,6 @@
 package main
 
-import (
-	models "todo_app/app/models"
-)
+import "todo_app/app/models"
 
 func main() {
 	// fmt.Println(config.Config.Port)
@@ -68,7 +66,12 @@ func main() {
 		}
 	*/
 
-	t, _ := models.GetTodo(1)
-	t.Content = "Update Todo"
-	t.UpdateTodo()
+	/*
+		t, _ := models.GetTodo(1)
+		t.Content = "Update Todo"
+		t.UpdateTodo()
+	*/
+
+	t, _ := models.GetTodo(4)
+	t.DeleteTodo()
 }
