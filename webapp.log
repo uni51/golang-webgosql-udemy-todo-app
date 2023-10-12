@@ -311,3 +311,421 @@ net/http.(*conn).serve(0xc000182750, {0x10058f968, 0xc0000a32c0})
 	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
 created by net/http.(*Server).Serve
 	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:03 server.go:3217: http: panic serving [::1]:55811: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc00009fe30})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0001861c0}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0001861c0}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002e200?, {0x1005d38d0?, 0xc0001861c0?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0001861c0}, 0xc0000da300)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc00009f680?}, {0x1005d38d0, 0xc0001861c0}, 0xc0000da300)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e4090, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:03 server.go:3217: http: panic serving [::1]:55812: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001b83c0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000186380}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000186380}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002e380?, {0x1005d38d0?, 0xc000186380?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000186380}, 0xc0000da200)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc00009f8f0?}, {0x1005d38d0, 0xc000186380}, 0xc0000da200)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e42d0, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:03 server.go:3217: http: panic serving [::1]:55813: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001b8a20})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000186540}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000186540}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002e800?, {0x1005d38d0?, 0xc000186540?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000186540}, 0xc0000da400)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001b84e0?}, {0x1005d38d0, 0xc000186540}, 0xc0000da400)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e4510, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:04 server.go:3217: http: panic serving [::1]:55814: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001b90e0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000186700}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000186700}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002e980?, {0x1005d38d0?, 0xc000186700?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000186700}, 0xc0000da500)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001b8ae0?}, {0x1005d38d0, 0xc000186700}, 0xc0000da500)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e46c0, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:08 server.go:3217: http: panic serving [::1]:55815: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001b9800})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0001869a0}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0001869a0}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002ea00?, {0x1005d38d0?, 0xc0001869a0?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0001869a0}, 0xc0000da900)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001b8ba0?}, {0x1005d38d0, 0xc0001869a0}, 0xc0000da900)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e4750, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:08 server.go:3217: http: panic serving [::1]:55816: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001b9d40})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000186b60}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000186b60}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002ec00?, {0x1005d38d0?, 0xc000186b60?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000186b60}, 0xc0000da800)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001b92f0?}, {0x1005d38d0, 0xc000186b60}, 0xc0000da800)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e4ab0, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:08 server.go:3217: http: panic serving [::1]:55817: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc000212360})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000186d20}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000186d20}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002ee80?, {0x1005d38d0?, 0xc000186d20?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000186d20}, 0xc0000daa00)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001b9e00?}, {0x1005d38d0, 0xc000186d20}, 0xc0000daa00)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e4cf0, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:09 server.go:3217: http: panic serving [::1]:55818: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc000212960})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000186ee0}, {0x0, 0x0}, {0xc0000b3a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000186ee0}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002f000?, {0x1005d38d0?, 0xc000186ee0?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000186ee0}, 0xc0000dab00)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000212420?}, {0x1005d38d0, 0xc000186ee0}, 0xc0000dab00)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc0000e4ea0, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:11 server.go:3217: http: panic serving [::1]:55819: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001165d0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000138000}, {0x0, 0x0}, {0xc0000ada18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000138000}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000114000?, {0x1005d38d0?, 0xc000138000?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000138000}, 0xc000124000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000116090?}, {0x1005d38d0, 0xc000138000}, 0xc000124000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00011a000, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:11 server.go:3217: http: panic serving [::1]:55820: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc000116b40})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0001381c0}, {0x0, 0x0}, {0xc0000ada18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0001381c0}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000282000?, {0x1005d38d0?, 0xc0001381c0?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0001381c0}, 0xc0002aa000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000284090?}, {0x1005d38d0, 0xc0001381c0}, 0xc0002aa000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000288000, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:11 server.go:3217: http: panic serving [::1]:55821: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001171a0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000138380}, {0x0, 0x0}, {0xc0000ada18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000138380}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000114400?, {0x1005d38d0?, 0xc000138380?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000138380}, 0xc000124300)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000116c60?}, {0x1005d38d0, 0xc000138380}, 0xc000124300)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00011a2d0, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:16 server.go:3217: http: panic serving [::1]:55823: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0001177a0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000138540}, {0x0, 0x0}, {0xc0000ada18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000138540}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000114580?, {0x1005d38d0?, 0xc000138540?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000138540}, 0xc000124500)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000117260?}, {0x1005d38d0, 0xc000138540}, 0xc000124500)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00011a480, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:46 server.go:3217: http: panic serving [::1]:55824: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0003145d0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc00033a000}, {0x0, 0x0}, {0xc000345a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc00033a000}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000312000?, {0x1005d38d0?, 0xc00033a000?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc00033a000}, 0xc000324000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000314090?}, {0x1005d38d0, 0xc00033a000}, 0xc000324000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000318000, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:46 server.go:3217: http: panic serving [::1]:55827: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc0002846f0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0002c0000}, {0x0, 0x0}, {0xc000341a18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0002c0000}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000282080?, {0x1005d38d0?, 0xc0002c0000?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0002c0000}, 0xc0002aa100)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000284180?}, {0x1005d38d0, 0xc0002c0000}, 0xc0002aa100)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000288090, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:37:46 server.go:3217: http: panic serving [::1]:55828: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004ec1a0, 0xc000117ce0})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000138700}, {0x0, 0x0}, {0xc0000ada18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000138700}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc000282200?, {0x1005d38d0?, 0xc000138700?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000138700}, 0xc0002aa400)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002847b0?}, {0x1005d38d0, 0xc000138700}, 0xc0002aa400)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000288240, {0x1005d3b58, 0xc00009f590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:38:14 server.go:3217: http: panic serving [::1]:55831: template: index.html:3: unexpected EOF
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004d8820, 0xc000119310})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0001a0000}, {0x0, 0x0}, {0xc00013fa18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0001a0000}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00016c180?, {0x1005d38d0?, 0xc0001a0000?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0001a0000}, 0xc000170100)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc00011b680?}, {0x1005d38d0, 0xc0001a0000}, 0xc000170100)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00017a090, {0x1005d3b58, 0xc00011b590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:38:15 server.go:3217: http: panic serving [::1]:55832: template: index.html:3: unexpected EOF
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004d8820, 0xc000119520})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0001a02a0}, {0x0, 0x0}, {0xc00013fa18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0001a02a0}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00002e080?, {0x1005d38d0?, 0xc0001a02a0?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0001a02a0}, 0xc00009c000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc000096090?}, {0x1005d38d0, 0xc0001a02a0}, 0xc00009c000)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc000098000, {0x1005d3b58, 0xc00011b590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:38:15 server.go:3217: http: panic serving [::1]:55833: template: index.html:3: unexpected EOF
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004d8820, 0xc000119740})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc0001a0460}, {0x0, 0x0}, {0xc00013fa18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc0001a0460}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00016c680?, {0x1005d38d0?, 0xc0001a0460?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc0001a0460}, 0xc000170400)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001ca7b0?}, {0x1005d38d0, 0xc0001a0460}, 0xc000170400)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00017a360, {0x1005d3b58, 0xc00011b590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
+2023/10/12 19:38:36 server.go:3217: http: panic serving [::1]:55836: template: index.html:3: unexpected EOF
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1854 +0xbf
+panic({0x1004d8820, 0xc000119310})
+	/usr/local/Cellar/go/1.20.7/libexec/src/runtime/panic.go:890 +0x263
+html/template.Must(...)
+	/usr/local/Cellar/go/1.20.7/libexec/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x1005d38d0?, 0xc000220000}, {0x0, 0x0}, {0xc00013fa18?, 0x3, 0x800?})
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/server.go:17 +0x237
+todo_app/app/controllers.index({0x1005d38d0, 0xc000220000}, 0x0?)
+	/Users/omokaji/learn/golang/udemy/golang-webgosql/todo_app/app/controllers/route_main.go:25 +0xdf
+net/http.HandlerFunc.ServeHTTP(0xc00016c180?, {0x1005d38d0?, 0xc000220000?}, 0x1000108ea?)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2122 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1005d38d0, 0xc000220000}, 0xc000170100)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2500 +0x149
+net/http.serverHandler.ServeHTTP({0xc00011b680?}, {0x1005d38d0, 0xc000220000}, 0xc000170100)
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:2936 +0x316
+net/http.(*conn).serve(0xc00017a090, {0x1005d3b58, 0xc00011b590})
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:1995 +0x612
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.20.7/libexec/src/net/http/server.go:3089 +0x5ed
